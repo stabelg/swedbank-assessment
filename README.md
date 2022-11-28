@@ -21,7 +21,7 @@ Pass: admin
 
 ## Setup Postman
 
-As the default user is created, you can simply import the **[postman collection from postman folder]()** 
+As the default user is created, you can simply import the **[postman collection from postman folder](https://github.com/stabelg/swedbank-assessment/tree/master/postman)** 
 It contain all the endpoints and basic auth configured, the basic auth is configured in the collection
 
 ## How it works
