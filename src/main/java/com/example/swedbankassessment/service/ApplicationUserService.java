@@ -32,6 +32,9 @@ public class ApplicationUserService {
     }
 
     public UserRequest updateApplicationUser(UserRequest userRequest){
+        if (userRequest.getId() == null){
+            throw new RuntimeException("User id cannot be null");
+        }
         findApplicationUserById(userRequest.getId());
         return converToUserRequest(saveApplicationUser(userRequest));
     }
